@@ -25,6 +25,7 @@ def background_thread():
                       namespace='/test')
 
 
+
 @app.route('/')
 def index():
     global thread
